@@ -5,6 +5,7 @@ import com.hhgg.hhggbe.comment.dto.ResponseMessageDto;
 import com.hhgg.hhggbe.comment.repository.CommentRepository;
 import com.hhgg.hhggbe.post.Post;
 import com.hhgg.hhggbe.post.PostRepository;
+import com.hhgg.hhggbe.user.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
