@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2a4b95-db2e-4050-b43a-084f5ca894c9" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hhgg/hhggbe/post/PostRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hhgg/hhggbe/post/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hhgg/hhggbe/post/Post.java" afterDir="false" />
+    <list default="true" id="8c2a4b95-db2e-4050-b43a-084f5ca894c9" name="Changes" comment="post기본작업 임시저장">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hhgg/hhggbe/post/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hhgg/hhggbe/post/PostRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,14 +106,33 @@
       <option name="project" value="LOCAL" />
       <updated>1674645544332</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="post기본작업 임시저장">
+      <created>1674702057001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674702057001</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="post기본작업 임시저장" />
+    <option name="LAST_COMMIT_MESSAGE" value="post기본작업 임시저장" />
   </component>
 </project>

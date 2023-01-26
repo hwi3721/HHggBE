@@ -1,7 +1,8 @@
 package com.hhgg.hhggbe.post;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.hhgg.hhggbe.comment.Comment;
+import com.hhgg.hhggbe.comment.entity.Comment;
+import com.hhgg.hhggbe.timestamped.Timestamped;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -12,7 +13,7 @@ import java.util.List;
 @Entity
 @Getter
 @RequiredArgsConstructor
-public class Post {
+public class Post extends Timestamped {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long postId;
@@ -21,9 +22,9 @@ public class Post {
     private String content;
     private String imageUrl;
 
-//    @OneToMany(mappedBy = "post", cascade = CascadeType.REMOVE)
-//    @JsonIgnore
-//    private List<Comment> comment = new ArrayList<>();
+    @OneToMany(mappedBy = "post", cascade = CascadeType.REMOVE)
+    @JsonIgnore
+    private List<Comment> comments = new ArrayList<>();
     private boolean isDelete;
 
     public void PostPatch(PostRequestDto postRequestDto, String imageUrl){
